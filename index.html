@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Lesson - 13</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="font-family: sans-serif">Basic HTML Table</h1>
+      <table
+        border="1"
+        width="800"
+        style="margin-top: 20px; margin-bottom: 25px"
+      >
+        <tr>
+          <th>Level 1</th>
+          <th colspan="3">Level 2</th>
+          <th colspan="2">Level 3</th>
+          <th colspan="3">Info</th>
+          <th>Name</th>
+        </tr>
+        <tr>
+          <th rowspan="6">System</th>
+          <th rowspan="4" colspan="3">System apps</th>
+          <th colspan="2" rowspan="3">System Env</th>
+          <th colspan="3">App test</th>
+          <th>foo</th>
+        </tr>
+        <tr>
+          <th colspan="3">App Memory</th>
+          <th>foo</th>
+        </tr>
+        <tr>
+          <th colspan="3">App Test</th>
+          <th>bar</th>
+        </tr>
+        <tr>
+          <th colspan="2">System Env2</th>
+          <th colspan="3">App Test</th>
+          <th>bar</th>
+        </tr>
+        <tr>
+          <th colspan="3" rowspan="2">System Memory</th>
+          <th colspan="2" rowspan="2">Memory Test</th>
+          <th colspan="3">Memory func</th>
+          <th>foo</th>
+        </tr>
+        <tr>
+          <th colspan="3">Apes Test</th>
+          <th>foo</th>
+        </tr>
+      </table>
+      <table
+        border="1"
+        width="400"
+        height="400"
+        style="margin-top: 30px; margin-bottom: 30px"
+        class="table2"
+      >
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Name</td>
+            <td>
+              <input type="text" class="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+              <div class="gender">
+                <input type="radio" class="radio" /> <span>Male</span>
+              </div>
+              <div class="gender">
+                <input type="radio" class="radio" /> <span>Female</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Eye color</td>
+            <td>
+              <select class="select">
+                <option value="green">green</option>
+                <option value="yellow">yellow</option>
+                <option value="red">red</option>
+                <option value="black">black</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Check all that apply</td>
+            <td class="td1">
+              <div class="checkbox">
+                <input type="checkbox" class="chb" />
+                <span>Over 6 feet tall</span>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" class="chb" />
+                <span>Over 200 pounds</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="margin-top: 0">
+              <label for="Description">Describe your athletic ability:</label>
+              <br />
+              <textarea
+                name="textarea"
+                id="Description"
+                cols="51"
+                rows="5"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <th colspan="2">
+              <button type="submit">Enter my information</button>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+      <div class="texts">
+        <h2>ABC Company Limited</h2>
+        <p>Banapa, Kavre</p>
+        <p>Staff Details</p>
+      </div>
+      <table
+        border="1"
+        width="600"
+        height="400px"
+        style="text-align: center; margin-bottom: 20px"
+      >
+        <thead>
+          <tr>
+            <th>S.N.</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Salary</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Hari Dhital</td>
+            <td>Banepa</td>
+            <td>15000</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Kedar Sharma</td>
+            <td>Panauti</td>
+            <td>17000</td>
+          </tr>
+          <tr>
+            <td colspan="3">Total</td>
+            <td>32000</td>
+          </tr>
+        </thead>
+      </table>
+    </div>
+    <div class="content">
+      <h1 class="content-heading">Pricing table</h1>
+      <p class="content-paragraph">
+        There are many reasons to get down and start to get depressed about your
+        situation.
+      </p>
+      <table border="1" width="900" height="400" class="last-table">
+        <thead>
+          <tr class="tr1">
+            <th class="th1">Features</th>
+            <th>Standard</th>
+            <th>Plus</th>
+            <th>PRO</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="tr2">
+            <th class="th1">The first</th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+          </tr>
+          <tr class="tr3">
+            <th class="th1">Second</th>
+            <th><img src="./Photos/no.svg" alt="no" /></th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+          </tr>
+          <tr class="tr4">
+            <th class="th1">Third</th>
+            <th><img src="./Photos/no.svg" alt="no" /></th>
+            <th><img src="./Photos/no.svg" alt="no" /></th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+          </tr>
+          <tr class="tr5">
+            <th class="th1">Fourth</th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+            <th><img src="./Photos/no.svg" alt="no" /></th>
+          </tr>
+          <tr class="tr6">
+            <th class="th1">Fifth</th>
+            <th><img src="./Photos/no.svg" alt="no" /></th>
+            <th><img src="./Photos/no.svg" alt="no" /></th>
+            <th><img src="./Photos/yes.svg" alt="yes" /></th>
+          </tr>
+          <tr class="tr7">
+            <th class="th1"><a href="#">Have questions?</a></th>
+            <th class="th2"><button type="button">Get started</button></th>
+            <th class="th3"><button type="button">Buy now</button></th>
+            <th class="th4"><button type="button">Get started</button></th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

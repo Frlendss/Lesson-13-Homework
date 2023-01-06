@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.gender .radio {
+  cursor: pointer;
+}
+.gender {
+  margin-left: 5px;
+}
+.select {
+  cursor: pointer;
+  margin-left: 5px;
+}
+.text {
+  width: 100%;
+  height: 100%;
+}
+.td1 .checkbox {
+  display: flex;
+  margin-left: 5px;
+}
+.chb {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 7px;
+}
+button:hover {
+  cursor: pointer;
+  padding: 10px;
+  background-color: rgb(103, 73, 131);
+  color: #fff;
+  transition: all 0.3s linear;
+  border-radius: 10px;
+  border: none;
+  letter-spacing: 1px;
+}
+.texts {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-right: 560px;
+}
+.content {
+  margin: 100px 200px;
+  font-family: sans-serif;
+}
+.content-heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #95a1bb;
+  margin-bottom: 30px;
+}
+.tr1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #363940;
+}
+.tr1 .th1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #95a1bb;
+}
+.tr2 .th1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+}
+.tr3 .th1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+}
+.tr4 .th1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+}
+.tr5 .th1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+}
+.tr6 .th1 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #363940;
+}
+.tr7 .th1 a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #6e38f7;
+  text-decoration: none;
+}
+.tr7 .th2 button {
+  cursor: pointer;
+  border: 1px solid #6e38f7;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6e38f7;
+}
+.tr7 .th2 button:hover {
+  background-color: #6e38f7;
+  color: #ffffff;
+  transition: all 0.5s linear;
+}
+.tr7 .th3 button {
+  cursor: pointer;
+  border: 1px solid #6e38f7;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6e38f7;
+}
+.tr7 .th3 button:hover {
+  background-color: #6e38f7;
+  color: #ffffff;
+  transition: all 0.5s linear;
+}
+.tr7 .th4 button {
+  cursor: pointer;
+  border: 1px solid #6e38f7;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6e38f7;
+}
+.tr7 .th4 button:hover {
+  background-color: #6e38f7;
+  color: #ffffff;
+  transition: all 0.5s linear;
+}
+.last-table,
+tr,
+th {
+  border: 1px solid rgb(185, 185, 177);
+}
+.last-table thead tr th {
+  padding: 15px;
+}
+.last-table tbody tr td {
+  padding: 15px 20px;
+}
